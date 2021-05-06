@@ -177,17 +177,41 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
 
 /*========== Home ==========*/
-.hero__container {
+.home__container {
   height: calc(100vh - var(--header-height));
   align-content: center; }
-.hero__title {
+.home__title {
   font-size: var(--biggest-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1); }
-.hero__subtitle {
+.home__subtitle {
   font-size: var(--h1-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4); }
+.home__img {
+  width: 300px;
+  justify-self: center; }
+
+/*========== BUTTONS ==========*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s; }
+  .button:hover {
+    background-color: var(--first-color-alt); }
+
+/*========== About ==========*/
+.about__data {
+  text-align: center; }
+.about__description {
+  margin-bottom: var(--mb-3); }
+.about__img {
+  width: 280px;
+  border-radius: 0.5rem;
+  justify-self: center; }
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
