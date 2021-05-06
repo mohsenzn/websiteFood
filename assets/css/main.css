@@ -147,7 +147,7 @@ img {
       padding: 1.5rem 0 1rem;
       text-align: center;
       background-color: var(--body-color);
-      transition: .4s;
+      transition: 0.4s;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
       border-radius: 0 0 1rem 1rem;
       z-index: var(--z-fixed); } }
@@ -159,7 +159,7 @@ img {
   .nav__logo:hover {
     color: var(--first-color); }
   .nav__link {
-    transition: .3s; }
+    transition: 0.3s; }
     .nav__link:hover {
       color: var(--first-color); }
   .nav__toggle {
@@ -262,8 +262,8 @@ img {
   right: 0;
   display: flex;
   font-size: 1.25rem;
-  padding: 0.625rem .813rem;
-  border-radius: .5rem 0 .5rem 0; }
+  padding: 0.625rem 0.813rem;
+  border-radius: 0.5rem 0 0.5rem 0; }
 
 /*========== APP ==========*/
 .app__data {
@@ -325,12 +325,16 @@ img {
     grid-template-columns: repeat(2, 1fr);
     align-items: center; }
 
-  .about__data, .about__initial,
-  .app__data, .app__initial,
-  .contact__container, .contact__initial {
+  .about__data,
+  .about__initial,
+  .app__data,
+  .app__initial,
+  .contact__container,
+  .contact__initial {
     text-align: initial; }
 
-  .about__img, .app__img {
+  .about__img,
+  .app__img {
     width: 380px;
     order: -1; }
 
@@ -386,7 +390,8 @@ img {
   .home__img {
     width: 500px; }
 
-  .about__container, .app__container {
+  .about__container,
+  .app__container {
     column-gap: 7rem; } }
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
