@@ -231,6 +231,92 @@ img {
 .services__description {
   padding: 0 1.5rem; }
 
+/*========== MENU ==========*/
+.menu__container {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center; }
+.menu__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--container-color);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
+  padding: 0.75rem; }
+.menu__img {
+  width: 100px;
+  align-self: center;
+  margin-bottom: var(--mb-2); }
+.menu__name, .menu__preci {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color); }
+.menu__name {
+  font-size: var(--normal-font-size); }
+.menu__detail, .menu__preci {
+  font-size: var(--small-font-size); }
+.menu__detail {
+  margin-bottom: var(--mb-1); }
+.menu__button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  font-size: 1.25rem;
+  padding: 0.625rem .813rem;
+  border-radius: .5rem 0 .5rem 0; }
+
+/*========== APP ==========*/
+.app__data {
+  text-align: center; }
+.app__description {
+  margin-bottom: var(--mb-5); }
+.app__stores {
+  margin-bottom: var(--mb-4); }
+.app__store {
+  width: 120px;
+  margin: 0 var(--mb-1); }
+.app__img {
+  width: 230px;
+  justify-self: center; }
+
+/*========== CONTACT ==========*/
+.contact__container {
+  text-align: center; }
+.contact__description {
+  margin-bottom: var(--mb-3); }
+
+/*========== FOOTER ==========*/
+.footer__container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 2rem; }
+.footer__logo {
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold); }
+.footer__description {
+  display: block;
+  font-size: var(--small-font-size);
+  margin: 0.25rem 0 var(--mb-3); }
+.footer__social {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  margin-right: var(--mb-2); }
+.footer__title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-2); }
+.footer__link {
+  display: inline-block;
+  color: var(--text-color);
+  margin-bottom: var(--mb-1); }
+  .footer__link:hover {
+    color: var(--first-color); }
+.footer__copy {
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  margin-top: 3.5rem; }
+
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px) {
   .home__container,
