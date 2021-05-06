@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- custom css -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <!-- box  Icons -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Tasty || WebSite Food</title>
-</head>
-<body>
-    <!-- ======== HEADER --> 
-    header.
+  </head>
+  <body>
+       <!--========== SCROLL TOP ==========-->
+       <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    <!-- ======== HEADER ============= -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Tasty</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+      <!-- ======== hero ============= -->
+        <section class="hero" id="hero">
+            <div class="hero__container bd-container bd-grid">
+                <div class="hero__info">
+                    <h1 class="hero__title">Tasty food</h1>
+                    <h2 class="hero__subtitle">Try the best food of <br> the week.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
